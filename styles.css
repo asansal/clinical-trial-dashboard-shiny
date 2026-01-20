@@ -1,0 +1,29 @@
+/* www/styles.css */
+
+/* 1. Change the Main Header (Logo area) background color */
+.skin-blue .main-header .logo {
+    background-color: #006666; /* Dark Teal - Pharma style */
+    font-family: 'Georgia', serif; /* More serious font */
+    font-weight: bold;
+}
+
+/* 2. Change the Navbar (rest of the header) background color */
+.skin-blue .main-header .navbar {
+    background-color: #008080; /* Slightly lighter Teal */
+}
+
+/* 3. Custom Class: "Urgent Alert" */
+/* We will apply this class to specific elements in R */
+.urgent-box {
+    border: 3px solid #e74c3c !important; /* Red border */
+    background-color: #fff5f5 !important; /* Light red background */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Shadow effect */
+}
+
+/* 4. Customize the Sidebar active selection */
+.skin-blue .sidebar-menu > li.active > a, 
+.skin-blue .sidebar-menu > li:hover > a {
+    border-left-color: #006666; /* Match the header */
+}
